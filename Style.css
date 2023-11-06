@@ -1,0 +1,321 @@
+.topnav a {
+    float: left;
+    color: #000000fa;
+    text-align: left;
+    padding: 14px 111px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .topnav a:hover {
+    background-color: #d48607;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #d48607;
+    color: rgb(0, 0, 0);
+  }
+  .icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .title{
+    background-color:#d48607;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  #customers td, #customers th{
+    border: 1px solid #ddd;
+    padding: 4px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #d48607;
+    color: white;
+  }
+  .call{
+    background-color: #d48607;
+    padding-left: 100%;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .address{
+    background-color: #d48607;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #000000fa;
+    text-align: left;
+    padding: 14px 111px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+  /* Table Contant */
+
+  * {box-sizing: border-box}
+  .container {
+    padding: 16px;
+  }
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+.registerbtn {
+    background-color: #d48607;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+  
+.registerbtn:hover {
+  opacity:1;
+}
+a {
+  color: dodgerblue;
+}
+  
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+  .containercheck {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .containercheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: rgb(63, 79, 99);
+    background-color: #eee;
+  }
+  .containercheck:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .containercheck input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .containercheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .containercheck .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 2px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+/* Radio Button */
+.containerRadio {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 9px;
+  cursor: pointer;
+  font-size: px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.containerRadio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.containerRadio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.containerRadio input:checked ~ .checkmark:after {
+  display: block;
+}
+.containerRadio .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: white;
+}
+.weoffer
+{
+  background-color: #d48607;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+footer {
+  background-color: #d48607; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-left, .additional-info, .contact-right {
+  width: 30%; 
+  margin: 10px;
+}
+
+.contact-left {
+  text-align: left; 
+}
+
+.additional-info {
+  text-align: center;
+}
+
+.contact-right {
+  text-align: right; 
+}
+#contact-right {
+  text-align: center; 
+}
+
+
+.additional-info button {
+  background-color: #0073e6; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none;
+  cursor: pointer;
+}
+
+.additional-info button:hover {
+  background-color: #005bb9; 
+}
+
+.contact-left p, .contact-right p, .additional-info p {
+  margin: 5px 0;
+}
+.center-align {
+  text-align: center; 
+  background-color: #d48607;
+}
+
+.review-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#000000; 
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.review-button:hover {
+  background-color: #005bb9; 
+}
+body, html {
+  height: 100%;
+  margin: 0%;
+}
+
+.bg {
+  background-image: url("/Image/mill.webp");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
